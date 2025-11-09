@@ -1,15 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "es6",
-    "moduleResolution": "node",
-    "outDir": "./dist",
-    "strict": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
+    "outDir": "./dist/",
     "sourceMap": true,
-    "lib": ["dom", "es2015"]
-  },
-  "include": ["./js/**/*.ts"]
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  }
 }
